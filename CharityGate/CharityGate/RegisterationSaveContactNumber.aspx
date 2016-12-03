@@ -4,6 +4,7 @@
 
 <html>
 <head>
+    <meta name="nav" content="end"/>
 </head>
 <body>
     Registration to Charity Gate<br />
