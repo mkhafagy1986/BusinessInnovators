@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CharityGate
+namespace CharityGate.DonationFiles._57357HospitalFiles
 {
-    public partial class Donation : System.Web.UI.Page
+    public partial class Contacts : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

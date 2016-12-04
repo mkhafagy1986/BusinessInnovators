@@ -9,6 +9,8 @@
 <body>
     Registration to Charity Gate<br />
     Customer service representatives will communicate with you within 24 hours.<br/>
+    <a href="../Default.html">Back to main menu</a>
+    <br/>
     Thanks
 </body>
 </html> 

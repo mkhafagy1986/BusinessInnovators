@@ -9,9 +9,11 @@ namespace CharityGate
 {
     public partial class RegisterationSaveName : System.Web.UI.Page
     {
+        private string Name = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Request.QueryString["response"] != null)
+                Name = Request.QueryString["response"];
         }
     }
 }

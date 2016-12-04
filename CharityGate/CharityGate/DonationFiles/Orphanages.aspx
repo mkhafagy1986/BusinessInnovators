@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Complaint.aspx.cs" Inherits="CharityGate.Complaint" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Orphanages.aspx.cs" Inherits="CharityGate.Donation.Orphanages" %>
 
 <!DOCTYPE html>
 

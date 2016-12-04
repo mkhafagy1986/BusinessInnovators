@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CharityGate
+namespace CharityGate.Donation
 {
 
 
-    public partial class Donation
+    public partial class Orphanages
     {
 
         /// <summary>

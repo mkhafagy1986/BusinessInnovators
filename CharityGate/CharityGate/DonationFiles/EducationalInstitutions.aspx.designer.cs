@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CharityGate
+namespace CharityGate.Donation
 {
 
 
-    public partial class Complaint
+    public partial class EducationalInstitutions
     {
 
         /// <summary>

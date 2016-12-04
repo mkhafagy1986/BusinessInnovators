@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Local Machine.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,59 +76,130 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Complaint.aspx" />
+    <Content Include="ComplaintFiles\Complaint.aspx" />
+    <Content Include="ComplaintFiles\ComplaintsHandelling.aspx" />
     <Content Include="Default.html" />
-    <Content Include="Donation.aspx" />
+    <Content Include="DonationFiles\Hospitals\57357HospitalFiles\57357Hospital.aspx" />
+    <Content Include="DonationFiles\Hospitals\57357HospitalFiles\About.aspx" />
+    <Content Include="DonationFiles\Hospitals\57357HospitalFiles\ConfirmDonation.aspx" />
+    <Content Include="DonationFiles\Hospitals\57357HospitalFiles\Donation.aspx" />
+    <Content Include="DonationFiles\Hospitals\57357HospitalFiles\Contacts.aspx" />
+    <Content Include="DonationFiles\Donation.aspx" />
+    <Content Include="DonationFiles\EducationalInstitutions.aspx" />
+    <Content Include="DonationFiles\Hospitals\Hospitals.aspx" />
+    <Content Include="DonationFiles\Orphanages.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Registeration.aspx" />
-    <Content Include="RegisterationSaveContactNumber.aspx" />
-    <Content Include="RegisterationSaveName.aspx" />
+    <Content Include="Registeration\Registeration.aspx" />
+    <Content Include="Registeration\RegisterationSaveContactNumber.aspx" />
+    <Content Include="Registeration\RegisterationSaveName.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Complaint.aspx.cs">
+    <Compile Include="ComplaintFiles\Complaint.aspx.cs">
       <DependentUpon>Complaint.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Complaint.aspx.designer.cs">
+    <Compile Include="ComplaintFiles\Complaint.aspx.designer.cs">
       <DependentUpon>Complaint.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Donation.aspx.cs">
+    <Compile Include="ComplaintFiles\ComplaintsHandelling.aspx.cs">
+      <DependentUpon>ComplaintsHandelling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComplaintFiles\ComplaintsHandelling.aspx.designer.cs">
+      <DependentUpon>ComplaintsHandelling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\57357HospitalFiles\57357Hospital.aspx.cs">
+      <DependentUpon>57357Hospital.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\57357HospitalFiles\57357Hospital.aspx.designer.cs">
+      <DependentUpon>57357Hospital.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\57357HospitalFiles\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\57357HospitalFiles\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\57357HospitalFiles\ConfirmDonation.aspx.cs">
+      <DependentUpon>ConfirmDonation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\57357HospitalFiles\ConfirmDonation.aspx.designer.cs">
+      <DependentUpon>ConfirmDonation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\57357HospitalFiles\Donation.aspx.cs">
       <DependentUpon>Donation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Donation.aspx.designer.cs">
+    <Compile Include="DonationFiles\Hospitals\57357HospitalFiles\Donation.aspx.designer.cs">
       <DependentUpon>Donation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\57357HospitalFiles\Contacts.aspx.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\57357HospitalFiles\Contacts.aspx.designer.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DonationFiles\Donation.aspx.cs">
+      <DependentUpon>Donation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DonationFiles\Donation.aspx.designer.cs">
+      <DependentUpon>Donation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DonationFiles\EducationalInstitutions.aspx.cs">
+      <DependentUpon>EducationalInstitutions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DonationFiles\EducationalInstitutions.aspx.designer.cs">
+      <DependentUpon>EducationalInstitutions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\Hospitals.aspx.cs">
+      <DependentUpon>Hospitals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DonationFiles\Hospitals\Hospitals.aspx.designer.cs">
+      <DependentUpon>Hospitals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DonationFiles\Orphanages.aspx.cs">
+      <DependentUpon>Orphanages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DonationFiles\Orphanages.aspx.designer.cs">
+      <DependentUpon>Orphanages.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registeration.aspx.cs">
+    <Compile Include="Registeration\Registeration.aspx.cs">
       <DependentUpon>Registeration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Registeration.aspx.designer.cs">
+    <Compile Include="Registeration\Registeration.aspx.designer.cs">
       <DependentUpon>Registeration.aspx</DependentUpon>
     </Compile>
-    <Compile Include="RegisterationSaveContactNumber.aspx.cs">
+    <Compile Include="Registeration\RegisterationSaveContactNumber.aspx.cs">
       <DependentUpon>RegisterationSaveContactNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="RegisterationSaveContactNumber.aspx.designer.cs">
+    <Compile Include="Registeration\RegisterationSaveContactNumber.aspx.designer.cs">
       <DependentUpon>RegisterationSaveContactNumber.aspx</DependentUpon>
     </Compile>
-    <Compile Include="RegisterationSaveName.aspx.cs">
+    <Compile Include="Registeration\RegisterationSaveName.aspx.cs">
       <DependentUpon>RegisterationSaveName.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="RegisterationSaveName.aspx.designer.cs">
+    <Compile Include="Registeration\RegisterationSaveName.aspx.designer.cs">
       <DependentUpon>RegisterationSaveName.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
