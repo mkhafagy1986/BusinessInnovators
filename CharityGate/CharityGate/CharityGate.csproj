@@ -66,19 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Local Machine.pubxml" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ComplaintFiles\Complaint.aspx" />
     <Content Include="ComplaintFiles\ComplaintsHandelling.aspx" />
-    <Content Include="Default.html" />
     <Content Include="DonationFiles\Hospitals\57357HospitalFiles\57357Hospital.aspx" />
     <Content Include="DonationFiles\Hospitals\57357HospitalFiles\About.aspx" />
     <Content Include="DonationFiles\Hospitals\57357HospitalFiles\ConfirmDonation.aspx" />
@@ -88,11 +80,6 @@
     <Content Include="DonationFiles\EducationalInstitutions.aspx" />
     <Content Include="DonationFiles\Hospitals\Hospitals.aspx" />
     <Content Include="DonationFiles\Orphanages.aspx" />
-    <Content Include="Global.asax" />
-    <Content Include="Registeration\Registeration.aspx" />
-    <Content Include="Registeration\RegisterationSaveContactNumber.aspx" />
-    <Content Include="Registeration\RegisterationSaveName.aspx" />
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComplaintFiles\Complaint.aspx.cs">
@@ -172,31 +159,7 @@
     <Compile Include="DonationFiles\Orphanages.aspx.designer.cs">
       <DependentUpon>Orphanages.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registeration\Registeration.aspx.cs">
-      <DependentUpon>Registeration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Registeration\Registeration.aspx.designer.cs">
-      <DependentUpon>Registeration.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Registeration\RegisterationSaveContactNumber.aspx.cs">
-      <DependentUpon>RegisterationSaveContactNumber.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Registeration\RegisterationSaveContactNumber.aspx.designer.cs">
-      <DependentUpon>RegisterationSaveContactNumber.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Registeration\RegisterationSaveName.aspx.cs">
-      <DependentUpon>RegisterationSaveName.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Registeration\RegisterationSaveName.aspx.designer.cs">
-      <DependentUpon>RegisterationSaveName.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
