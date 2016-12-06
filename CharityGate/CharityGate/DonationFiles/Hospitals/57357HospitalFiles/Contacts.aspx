@@ -7,7 +7,7 @@
     <meta name="nav" content="end"/>
 </head>
 <body>
-    57357 hospital Contacts <%= DonationAmount %> <br />
+    57357 hospital Contacts <%= ءيئDonationAmount %> <br />
     Address.<br/>
     Phone Number<br/>
     <a href="../../../Default.html">Back to main menu</a>
